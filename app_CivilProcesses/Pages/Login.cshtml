@@ -2,3 +2,67 @@
 @model app_CivilProcesses.Pages.LoginModel
 @{
 }
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+	<link rel="stylesheet" href="~/css/login.css">
+</head>
+<body>
+    @*<div class="container">
+		<form id="signup" class="form">
+            <h1>Sign Up</h1>
+
+            <div class="form-field">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" autocomplete="off">
+                <small></small>
+            </div>
+
+            <div class="form-field">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" autocomplete="off">
+                <small></small>
+            </div>
+
+            <div class="form-field">
+                <input type="submit" value="Sign Up">
+            </div>
+        </form>
+    </div>*@
+
+	<div class="container">
+		<div class="screen">
+			<div class="screen__content">
+				<form class="login">
+					<div class="login__field">				
+						<i class="login__icon fas fa-user"></i>
+						<input type="text" class="login__input" name="email" id="email" placeholder="Email" autocomplete="off">
+						<small class=""></small>
+					</div>
+					<div class="login__field">
+						<i class="login__icon fas fa-lock"></i>
+						<input type="password" class="login__input" name="password" id="password" placeholder="Password" autocomplete="off">
+						<small class=""></small>
+					</div>
+					<div class="form-field">
+						<input type="submit" value="Sign Up">
+					</div>
+				</form>
+			</div>
+			<div class="screen__background">
+				<span class="screen__background__shape screen__background__shape4"></span>
+				<span class="screen__background__shape screen__background__shape3"></span>
+				<span class="screen__background__shape screen__background__shape2"></span>
+				<span class="screen__background__shape screen__background__shape1"></span>
+			</div>
+		</div>
+	</div>
+
+	<!-- JavaScript -->
+
+	<script src="~/js/login.js"></script>
+
+	<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</body>
+</html>
